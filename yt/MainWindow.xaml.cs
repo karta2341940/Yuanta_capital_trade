@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using YuantaOneAPI;
+
 
 namespace yt
 {
@@ -21,7 +21,7 @@ namespace yt
     /// </summary>
     public partial class MainWindow : Window
     {
-        YuantaOneAPITrader yt = new YuantaOneAPITrader();
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -30,7 +30,6 @@ namespace yt
 
         private void pwd_TextChanged(object sender, TextChangedEventArgs e)
         {
-            
         }
     }
 }
